@@ -4,7 +4,7 @@ fun main() {
 
 
 
-    println (city.javaClass.kotlin)
-    println (temperature.javaClass.kotlin)
+    println ("The type of city is ${city.javaClass.kotlin}")
+    println ("The type of temperature is ${temperature.javaClass.kotlin}")
 
 }
