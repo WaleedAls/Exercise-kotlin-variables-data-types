@@ -15,5 +15,4 @@ fun main () {
     } else {
         println("Grade: F")
     }
-
 }
