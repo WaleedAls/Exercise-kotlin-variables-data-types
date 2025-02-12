@@ -1,3 +1,7 @@
 fun main() {
-    println("Hello World!")
+    return greetTraveler()
+}
+
+fun greetTraveler (){
+    println("Welcome to the Desert, Traveler!")
 }
