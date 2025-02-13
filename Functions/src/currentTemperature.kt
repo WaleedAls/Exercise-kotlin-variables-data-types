@@ -1,15 +1,10 @@
-fun main () {
 
-return currentTemperature()
+fun currentTemperature (morningTemperature: Int, afternoonTemperature: Int) = {morningTemperature + afternoonTemperature} / 2 {
+
+ println(" Average temperature: $currentTemperature")
 
 }
 
-fun currentTemperature () {
-
-    var morningTemperature: Int = 25
-    var afternoonTemperature: Int = 40
-    var Average: Int = morningTemperature + afternoonTemperature
-    var averageTemp = Average/ 2
- println(" Average temperature: $averageTemp")
-
+fun main () {
+    currentTemperature(25 , 40 )
 }

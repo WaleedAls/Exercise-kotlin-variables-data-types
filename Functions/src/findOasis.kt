@@ -1,10 +1,12 @@
-fun main (){
-return findOasis()
+
+fun findOasis (x: Int, y: Int) {
+
+println("Oasis found at coordinates ($x, $y)")
 
 }
-fun findOasis (){
-    var x: Int = 10
-    var y: Int = 20
-println("Oasis found at coordinates ($x, $y)")
+
+
+fun main (){
+    findOasis(10, 20)
 
 }

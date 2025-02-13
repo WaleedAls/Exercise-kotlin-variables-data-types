@@ -1,10 +1,6 @@
 fun main (){
-return survivalChance()
+
+    println("Survival Chance "+ survivalChance(8))
 }
 
-fun survivalChance (){
-   var supplies: Int = 8
-   var survivalChance = supplies * 10
-    println(" Survival Chance : $survivalChance")
-
-}
+fun survivalChance  (supplies: Int ) = supplies * 10
