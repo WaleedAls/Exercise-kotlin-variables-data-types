@@ -11,6 +11,9 @@ fun startCamelRide ( speed: Int = 5, time: Int ): Int {
 
     return distance;speed;time;
 
+
+
+
 }
 fun main () {
   //  println("Camel Ride: Distance = $distance km, Speed = $speed km/h, Time = $time hours")
