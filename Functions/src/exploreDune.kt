@@ -1,10 +1,10 @@
-fun main () {
-return exploreDune()
-}
-fun exploreDune () {
+fun exploreDune ( height: Double, climeRate: Double ): Double {
 
-   var height = 20.0
-   var climeRate = 3.0
-    var time : Double = ((height / climeRate))
-println(" Time to Climb the Dune: $time hours")
+    return height/ climeRate
+}
+
+fun main () {
+
+    println(" Time to Climb the Dune: =" +  exploreDune( 20.00, 3.0) + " hours")
+//println (exploreDune(20.0, 3.0))
 }
