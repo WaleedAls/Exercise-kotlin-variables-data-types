@@ -1,5 +1,6 @@
-val transformation = {n: Int -> n * 2 }
+import kotlin.math.ln1p
 
+val transformation = { n: Int -> n * 2 }
 
 
 fun main (){
@@ -8,6 +9,11 @@ fun main (){
     val value = (numbers.values)
     println(value)
 
-    println(transformation(value.))
+    for (n1 in numbers) {
+        println(n1)
+     //   return n1
+    }
+
+    println(transformation)
 
 }
