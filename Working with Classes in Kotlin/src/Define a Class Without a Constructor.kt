@@ -1,12 +1,12 @@
 fun main () {
-    val myBook = Book()
+    val myBook = Book1()
     myBook.title = "Hello World"
     myBook.author = "Michael Jackson"
     myBook.publisher = "Michael Jackson"
 }
 
 
-class Book {
+class Book1 {
 
     var title: String = ""
     var author: String = ""
